@@ -57,7 +57,7 @@ export class PlaygroundControls extends LitElement {
         .playground-controls .app-title {
           font-size: 25px;
           padding: 10px;
-            font-weight: 600;
+          font-weight: 600;
         }
 
         .playground-controls div.right {
@@ -93,7 +93,7 @@ export class PlaygroundControls extends LitElement {
           width: 160px;
           height: 40px;
         }
-        
+
         #version {
           height: 40px;
         }
@@ -107,7 +107,7 @@ export class PlaygroundControls extends LitElement {
       <div class="playground-controls">
         <slot name="app-title">
           <div class="app-title">
-              <slot name="app-title-text"><span>${this.title}</span></slot>
+            <slot name="app-title-text"><span>${this.title}</span></slot>
           </div>
         </slot>
         <div class="right">
