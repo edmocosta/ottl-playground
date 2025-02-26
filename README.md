@@ -1,3 +1,5 @@
+### Moved to https://github.com/elastic/ottl-playground
+
 # OTTL Playground
 
 The OTTL Playground is a powerful and user-friendly tool designed to allow users to experiment with OTTL effortlessly. 
